@@ -4,7 +4,7 @@ export type Dipendete = {
   annoNascita: number;
   sesso: "m" | "f";
   anniDiServizio: number[];
-  emailAziendale: readonly [string];
+  readonly emailAziendale: string;
   contratto: "indeterminato" | "determinato" | "freelance";
   livelloEsperienza: "Junior" | "Mid" | "Senior";
 };
